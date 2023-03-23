@@ -3,7 +3,7 @@ mySprite: Sprite = None
 projectile: Sprite = None
 scene.set_background_color(13)
 mySprite = sprites.create(assets.image("""front"""), SpriteKind.player)
-mySprite.set_position(100, 100)
+mySprite.set_position(120, 100)
 moves = [sprites.castle.skelly_attack_front1,
     sprites.castle.skelly_attack_left1,
     sprites.castle.skelly_attack_right2,
