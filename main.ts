@@ -3,7 +3,7 @@ let mySprite : Sprite = null
 let projectile : Sprite = null
 scene.setBackgroundColor(13)
 mySprite = sprites.create(assets.image`front`, SpriteKind.Player)
-mySprite.setPosition(80, 100)
+mySprite.setPosition(100, 100)
 let moves = [sprites.castle.skellyAttackFront1, sprites.castle.skellyAttackLeft1, sprites.castle.skellyAttackRight2, sprites.castle.skellyAttackFront4]
 info.setLife(3)
 //  Control functions
